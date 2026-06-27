@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Dashboard Técnico — Gira Arenas 2026</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <button id="theme-toggle" onclick="toggleTheme()" aria-label="Cambiar tema">🌙</button>
+        <h1>Gira Arenas España</h1>
+        <p>Panel de Control Operativo — Verano 2026</p>
+    </header>
+
+    <div id="next-show-banner" class="next-show-container">
+        </div>
+
+    <div class="stats-container">
+        <div class="stat-card">
+            <div id="stat-total-cap" class="stat-value">0</div>
+            <div class="stat-label">Aforo Total Gira</div>
+        </div>
+        <div class="stat-card highlighted">
+            <div id="stat-sold-cap" class="stat-value">0</div>
+            <div id="stat-sold-perf" class="stat-label">Sold Out (0%)</div>
+        </div>
+        <div class="stat-card">
+            <div id="stat-soldout-count" class="stat-value">0 / 0</div>
+            <div class="stat-label">Fechas Agotadas</div>
+        </div>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-text">Progreso Cronológico de la Gira: <span id="progress-percentage">0%</span> (<span id="progress-counts">0/15</span>)</div>
+        <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <div class="controls-wrapper">
+        <input type="text" id="search-input" placeholder="🔍 Buscar por ciudad, provincia o recinto..." oninput="handleSearch()">
+        <div class="filter-container">
+            <button class="filter-btn active" id="btn-all" onclick="filterTour('all', this)">Todos</button>
+            <button class="filter-btn" id="btn-upcoming" onclick="filterTour('upcoming', this)">Próximos</button>
+            <button class="filter-btn" id="btn-soldout" onclick="filterTour('soldout', this)">Sold Out</button>
+        </div>
+    </div>
+
+    <div class="tour-container" id="tour-list">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
