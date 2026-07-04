@@ -1,7 +1,7 @@
 const tourData = [
-    { id: 1, date: new Date(2026, 5, 27), city: "Castellón", venue: "Pabellón Ciutat de Castelló", cap: 5260, soldOut: true, time: "21:30", cancelled: false },
-    { id: 2, date: new Date(2026, 6, 1), city: "Valencia", venue: "Roig Arena", cap: 20000, soldOut: true, time: "21:30", cancelled: false },
-    { id: 3, date: new Date(2026, 6, 2), city: "Valencia", venue: "Roig Arena", cap: 20000, soldOut: false, time: "21:30", cancelled: false },
+    { id: 1, date: new Date(2026, 5, 27), city: "Castelló", venue: "Pabellón Ciutat de Castelló", cap: 5260, soldOut: true, time: "21:30", cancelled: false },
+    { id: 2, date: new Date(2026, 6, 1), city: "Valéncia", venue: "Roig Arena", cap: 20000, soldOut: true, time: "21:30", cancelled: false },
+    { id: 3, date: new Date(2026, 6, 2), city: "Valéncia", venue: "Roig Arena", cap: 20000, soldOut: false, time: "21:30", cancelled: false },
     { id: 4, date: new Date(2026, 6, 5), city: "Murcia", venue: "Palacio de Deportes", cap: 7454, soldOut: true, time: "21:30", cancelled: false },
     { id: 5, date: new Date(2026, 6, 9), city: "Málaga", venue: "Martín Carpena", cap: 10000, soldOut: false, time: "21:30", cancelled: false },
     { id: 6, date: new Date(2026, 6, 13), city: "Sevilla", venue: "San Pablo", cap: 10200, soldOut: false, time: "21:30", cancelled: false },
@@ -11,7 +11,8 @@ const tourData = [
     { id: 10, date: new Date(2026, 6, 25), city: "Bilbao", venue: "Bizkaia Arena (BEC)", cap: 26000, soldOut: false, time: "21:30", cancelled: false },
     { id: 11, date: new Date(2026, 6, 29), city: "Barcelona", venue: "Palau Sant Jordi", cap: 17960, soldOut: true, time: "21:30", cancelled: false },
     { id: 12, date: new Date(2026, 6, 30), city: "Barcelona", venue: "Palau Sant Jordi", cap: 17960, soldOut: false, time: "21:30", cancelled: false },
-    { id: 13, date: new Date(2026, 7, 2), city: "Alicante", venue: "Pabellón Pedro Ferrándiz", cap: 5700, soldOut: true, time: "21:30", cancelled: false },
+    { id: 13, date: new Date(2026, 7, 2), city: "Borriana", venue: "Arenal Sound 2026", cap: 40000, soldOut: false, time: "21:30", cancelled: false },
+    { id: 13, date: new Date(2026, 7, 2), city: "Alacant", venue: "Pabellón Pedro Ferrándiz", cap: 5700, soldOut: true, time: "21:30", cancelled: false },
     { id: 14, date: new Date(2026, 7, 6), city: "Palma (Mallorca)", venue: "Velódromo Illes Balears", cap: 7000, soldOut: false, time: "21:30", cancelled: false },
     { id: 15, date: new Date(2026, 7, 10), city: "Las Palmas (GC)", venue: "Gran Canaria Arena", cap: 11500, soldOut: true, time: "21:30", cancelled: false }
 ];
