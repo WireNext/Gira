@@ -11,10 +11,10 @@ const tourData = [
     { id: 10, date: new Date(2026, 6, 25), city: "Bilbao", venue: "Bizkaia Arena (BEC)", cap: 26000, soldOut: false, time: "21:30", cancelled: false },
     { id: 11, date: new Date(2026, 6, 29), city: "Barcelona", venue: "Palau Sant Jordi", cap: 17960, soldOut: true, time: "21:30", cancelled: false },
     { id: 12, date: new Date(2026, 6, 30), city: "Barcelona", venue: "Palau Sant Jordi", cap: 17960, soldOut: false, time: "21:30", cancelled: false },
-    { id: 13, date: new Date(2026, 7, 2), city: "Borriana", venue: "Arenal Sound 2026", cap: 40000, soldOut: false, time: "21:30", cancelled: false },
-    { id: 14, date: new Date(2026, 7, 2), city: "Alacant", venue: "Pabellón Pedro Ferrándiz", cap: 5700, soldOut: true, time: "21:30", cancelled: false },
-    { id: 15, date: new Date(2026, 7, 6), city: "Palma (Mallorca)", venue: "Velódromo Illes Balears", cap: 7000, soldOut: false, time: "21:30", cancelled: false },
-    { id: 16, date: new Date(2026, 7, 10), city: "Las Palmas (GC)", venue: "Gran Canaria Arena", cap: 11500, soldOut: true, time: "21:30", cancelled: false }
+    { id: 13, date: new Date(2026, 7, 1), city: "Borriana", venue: "Arenal Sound 2026", cap: 40000, soldOut: false, time: "21:30", cancelled: false },
+    { id: 13, date: new Date(2026, 7, 2), city: "Alacant", venue: "Pabellón Pedro Ferrándiz", cap: 5700, soldOut: true, time: "21:30", cancelled: false },
+    { id: 14, date: new Date(2026, 7, 6), city: "Palma (Mallorca)", venue: "Velódromo Illes Balears", cap: 7000, soldOut: false, time: "21:30", cancelled: false },
+    { id: 15, date: new Date(2026, 7, 10), city: "Las Palmas (GC)", venue: "Gran Canaria Arena", cap: 11500, soldOut: true, time: "21:30", cancelled: false }
 ];
 
 let currentFilter = localStorage.getItem('tourFilter') || 'all';
